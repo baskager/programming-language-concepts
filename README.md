@@ -31,6 +31,9 @@
 ## Language categories
 **Imperative**
 Central features are variables, assignment statements and iteration.
+
+Abstractions of von Nuemann architecture
+
 **Functional**
 Main means of making computations is by applying functions to given parameters.
 **Logic**
@@ -220,3 +223,120 @@ Part of the .NET development platform (2000). Based on C++, Java and Delphi. Inc
 
 ## Functional languages: Elixir
 Builds on top of Erlang. Everything is an expression.
+
+# Stack
+
+# Assembly
+
+# Scoping
+
+# Names
+Are the names capital-sensative?
+Are certain words or keywords reserved?
+
+## length
+If too short, they cannot be connotative
+
+FORTAN 95: maximum of 31
+C99: No limit but only the first 63 are significant, also,external names are limited to a maximum of 31.
+
+## Special characters
+PHP: All variable names must begin with dollar signs
+
+## Case sensitivity
+- Disadvantage: readability (names that look alike are different)
+
+Names in the C-based languages are case sensitive
+
+Worse in C++, java and C# because predefined names are mixed case (E.G. IndexOutOfBoundsException)
+
+## Special words
+A keyword is a word that is special. An aid to readability; used to delmimit or seperate statement clauses.
+
+A reserved word is a word that can not be used as a variable name
+
+# Variables
+
+Not all variables have names.
+
+A variable is an abstraction of a memory cell. Variables can be characterized as a sextuple of attributes:
+- Name
+- Memory address
+  - The memory address with which is is associated.
+    - A variable may have different addresses at different times during execution
+- value
+- etc.
+
+## Variable attributes
+Type: Determines the range of values of variables and the set of operations that are defined for the values of that type; in the case of floating point, type also determines the amount of decimals.
+
+### scope
+The scope of a variable is the range of statements over which it is visible.
+
+#### Local variables
+
+#### Nonlocal variables
+
+#### Global variables
+
+## Static scope
+Based on program text. To connect a name reference to a variable you (or the compiler) must find the declaration.
+
+# Blocks
+A method of creating static scopes inside program units. Came from ALGOL 60
+
+## Note:
+Legal in C and C++, but not in Java and C# because it is too error-prone.
+
+# Garbage collection
+"Cleaning up" fragmented memory (empty addresses in between the program data). Memory addresses of variables will be changed.
+
+Program operation will be halted for the garbage collection, this was seen as a significant problem in the earlier days of programming.
+
+# Binding 
+## Static
+Before the runtime
+## Dynamic
+During the runtime
+
+## Type binding
+
+## Explicit and implicit Declaratian
+An explicit declaration is a program statement used for declaring the types of variables
+
+an implicit declaration is a default mechanism for specifying types of variables through default conventions,rather than declaration statements.
+
+Some languages use type inferencing to determine types of variables (context)
+
+# Heap
+
+# Stack
+
+
+
+# Lexical analysis
+A lexical analyzier is a pattern matcher for character string. It is a "front-end" for the parser. It identifies substring of the source program that belong together - lexemes
+
+- Lexemes match a character pattern
+-
+
+## Recognizers
+A recognition device reads input strings over the alphabet of the language and decides whether the input strings belong to the language.
+
+**Example:** Syntax analysis part of a compiler
+## Generators
+A device that generates a sentence of a language
+
+## Grammars
+### Context free grammars and BNF
+Equivalent meta-languages, well-suites for describing the syntax of programming language
+
+An attribute grammar is a layer on top of context-free-grammars
+### BNF
+
+# Lexical
+Refers to the things concerning the words of a language
+# Syntax
+The form or structure of the expressions, statements and program units
+# Semantics
+The meaning of expressions, statements and programming units
