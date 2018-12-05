@@ -36,3 +36,14 @@ From 1969 until 1972, the C programming language was developed by Dennis Ritchie
 In 1979 a Danish computer scientist by the name of Bjarne Stroustrup began to work on "C with classes". Bjarne took the object-oriented abstraction layer ideas of the SIMULA programming language and combined it with the low-level capabilities of the C programming language. Bjarne later renamed "C with classes" to C++. In essence, the C++ programming language combines the C programming language with the Object-Oriented abstraction layer of the SIMULA programming language.
 
 C++ is still a massively popular programming language because it provides the ability to have efficient Object-Oriented abstractions without sacrificing hardware access, which is very useful for many use cases such as: Operating Systems, microcontrollers and embedded systems. Another factor in its popularity is that C++ has compilers for all popular processor architectures, in fact, I think it is hard to find a processor architecture that does not have a C++ compiler. You can be pretty sure that if your C++ code is up to standard, it will run basically anywhere without extensive adjustments to the code.
+
+# Basic concepts of c++
+## Names bindings and scopes
+
+## Data types
+
+## Expressions and assignment statements
+
+## Statement-level control structures
+
+# Advanced concepts of c++
